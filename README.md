@@ -1,24 +1,19 @@
 Iniciar o Projeto:
 
+requisito: 
+   - NodeJS ( a última versão LTS de preferência )
 
+Dentro da pasta do projeto, rodar os seguintes comandos:
 
-npm install
-
-
+   npm install
 
 Para rodar os testes:
 
-
-
 npm test
-
-
 
 Rodará os testes dos arquivos <arquivo>.test.js
 
-
-
-Para a execução dos testes está sendo utilizado o framework Jest, para saber mais sobre :
+Para a execução dos testes desse projeto, está sendo utilizado o framework Jest, para saber mais sobre :
 
 https://jestjs.io/
 
@@ -69,13 +64,11 @@ as partes do nome que não fazem parte do sobrenome devem ser impressas com a in
 Lições Aprendidas:
 
 
-
 Palavras reservadas:
 
     * module.exports : para exportar uma função ou variável;
 
     * toUpperCase()
+    
 
-
-
-====================​
+=============================
