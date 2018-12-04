@@ -42,16 +42,17 @@ As seguintes regras devem ser seguidas nesta formatação:
 Lições Aprendidas:
 
 Brainstorm:
-    * Dificuldades de aprender uma nova linguagem
-    * Dificuldades com a Editor de Texto, usar uma IDE é um ganho de produtividade
-    * ter uma pessoa chave ou Google para quem perguntar sobre a tecnologia 
-    * Manter o foco no problema, e não dispersar.
-    * fazer o código do jeito que souber/ do jeito que está pensando, importante a lógica.
-    * Imprimir o problema
-    * um proximo fazer a refatoração do dojo anterior focado refatoração 
-    * promover a interação o uso do GitHub  
-    * alterar a data do codingDojo para um horário na parte da manhã
-    
+
+   * Dificuldades de aprender uma nova linguagem
+   * Dificuldades com a Editor de Texto, usar uma IDE é um ganho de produtividade
+   * ter uma pessoa chave ou Google para quem perguntar sobre a tecnologia 
+   * Manter o foco no problema, e não dispersar.
+   * fazer o código do jeito que souber/ do jeito que está pensando, importante a lógica.
+   * Imprimir o problema
+   * um proximo fazer a refatoração do dojo anterior focado refatoração 
+   * promover a interação o uso do GitHub  
+   * alterar a data do codingDojo para um horário na parte da manhã
+
 Palavras reservadas:
     * module.exports : para exportar uma função ou variável;
     * toUpperCase()
