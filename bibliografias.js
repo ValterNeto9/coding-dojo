@@ -1,18 +1,18 @@
 
-let lastNames = ['NETO', 'NETA', 'FILHO', 'FILHA', 'SOBRINHO', 'SOBRINHA']
-let juncoes = ["da", "de", "do", "das", "dos"]
+const lastNames = ['NETO', 'NETA', 'FILHO', 'FILHA', 'SOBRINHO', 'SOBRINHA']
+const juncoes = ["da", "de", "do", "das", "dos"]
 
-function getNome(nome) {
-    var arrayNome = nome.split(" ");
+let getNome = ( nome ) => {
+    const arrayNome = nome.split(" ");
 
     if(arrayNome.length > 1){
 
         // TODO Aprender:
         //if(arrayNome[arrayNome.length-1].toUpperCase().includes(lastNames))
-        if(lastNames.indexOf(arrayNome[arrayNome.length-1].toUpperCase()) > -1)
+        if(lastNames.indexOf( arrayNome[arrayNome.length-1].toUpperCase() ) > -1)
         {
-            var segundaParte = ""
-            arrayNome.slice(0,arrayNome.length - 2).forEach(item => {
+            let segundaParte = ""
+            arrayNome.slice( 0,arrayNome.length - 2 ).forEach(item => {
                 segundaParte += formataNome(item)
                 segundaParte += " "
             });
@@ -21,8 +21,8 @@ function getNome(nome) {
         }
         else
         {
-            var segundaParte = ""
-            arrayNome.slice(0,arrayNome.length - 1).forEach(item => {
+            let segundaParte = ""
+            arrayNome.slice( 0,arrayNome.length - 1 ).forEach(item => {
                 segundaParte += formataNome(item)
                 segundaParte += " "
             });
@@ -34,7 +34,7 @@ function getNome(nome) {
     }
 }
 
-function formataNome( nome ) {
+let formataNome = ( nome ) => {
     if(juncoes.indexOf(nome.toLowerCase()) > -1) {
         return nome.toLowerCase();
     }
