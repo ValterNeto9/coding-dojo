@@ -1,32 +1,34 @@
 
-Iniciar o Projeto:
+# Coding Dojo :mount_fuji:
+#### Iniciar o Projeto:
 
-npm install
+```npm install```
 
 Para rodar os testes:
 
-npm test
+```npm test```
 
-Rodará os testes dos arquivos <arquivo>.test.js
+Irá rodar os testes dos arquivos <arquivo>.test.js
 
 Para a execução dos testes está sendo utilizado o framework Jest, para saber mais sobre :
-https://jestjs.io/
+[Conheça o JEST](https://jestjs.io/ "Clique e acesse agora!")
+
 
 ===========================
 
-PUZZLE:
+#### PUZZLE:
 
 Nomes de Autores de Obras Bibliográficas
 
 Quando se lista o nome de autores de livros, artigos e outras publicações é comum que se apresente o nome do autor ou dos autores da seguinte forma: sobrenome do autor em letras maiúsculas, seguido de uma vírgula e da primeira parte do nome apenas com as iniciais maiúsculas.
 
-Por exemplo:
+##### Por exemplo:
 SILVA, Joao
 COELHO, Paulo
 ARAUJO, Celso de
 Seu desafio é fazer um programa que leia um número inteiro correspondendo ao número de nomes que será fornecido, e, a seguir, leia estes nomes (que podem estar em qualquer tipo de letra) e imprima a versão formatada no estilo exemplificado acima.
 
-As seguintes regras devem ser seguidas nesta formatação:
+##### As seguintes regras devem ser seguidas nesta formatação:
 
 * o sobrenome será igual a última parte do nome e deve ser apresentado em letras maiúsculas;
 
@@ -39,9 +41,10 @@ As seguintes regras devem ser seguidas nesta formatação:
 
 
 =============================
-Lições Aprendidas:
 
-Brainstorm:
+#### Lições Aprendidas:
+
+##### Brainstorm:
 
    * Dificuldades de aprender uma nova linguagem
    * Dificuldades com a Editor de Texto, usar uma IDE é um ganho de produtividade
@@ -53,7 +56,7 @@ Brainstorm:
    * promover a interação o uso do GitHub  
    * alterar a data do codingDojo para um horário na parte da manhã
 
-Palavras reservadas:
+##### Palavras reservadas:
     * module.exports : para exportar uma função ou variável;
     * toUpperCase()
     
