@@ -1,8 +1,4 @@
-const getNome = require('./bibliografias').getNome;
-const formataNome = require('./bibliografias').formataNome;
-const names = ['joao silva',
-                'paulo coelho',
-                'celso de araujo'];
+const { getNome, formataNome, toCapitalizeFirst, hasLastName, montarNome } = require('./bibliografias')
 
 test('Retorna o nome unico maiusculo', () => {
     expect(getNome('Valter')).toBe('VALTER');
@@ -36,7 +32,14 @@ test('Formata Nome', () => {
     expect(formataNome('valter')).toBe('Valter');
 });
 
+test('Primeira letra maiúscula', () => {
+    expect( toCapitalizeFirst('valter')).toBe('Valter')
+})
 
-/*test('Retorna os nomes de autores de obras bibliograficas', () => {
-    expect()
-});*/
+test('procurar por ultimo nome', () => {
+    expect( hasLastName('Filho') ).toBeTruthy()
+})
+
+test('monta segunda parte do nome bibliografico', () => {
+    expect( montarNome(['José', 'da', 'Silva'], 1) ).toBe('José da')
+})
